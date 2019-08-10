@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int X,P,sum=0;
+	cin>>X>>P;
+	while(X>=1)
+	{   
+	    sum=sum+X;
+	    if(X==1)
+	    break;
+	    X=X-(X*P)/100;
+	    
+	}
+	cout<<sum<<endl;
+	return 0;
+}
